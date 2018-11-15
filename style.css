@@ -1,0 +1,29 @@
+body{
+  background: url("https://picsum.photos/1200/900?image=1022");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.clock{
+  top: 10px;
+  left: 10px;
+  background: url("https://picsum.photos/200/300?image=1056");
+  position: relative;
+  border: 10px solid white;
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+}
+
+.hand {
+  background: black;
+  position: absolute;
+  top:50%;
+  border: 2px solid black;
+  width: 70px;
+  right: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
